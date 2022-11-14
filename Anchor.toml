@@ -1,0 +1,21 @@
+[programs.localnet]
+atlas_farming = "3vn329CSYxQc4T1DNSk4Lw5Js3x83zwQTfv2qGw8tEuQ"
+
+[programs.devnet]
+atlas_farming = "3vn329CSYxQc4T1DNSk4Lw5Js3x83zwQTfv2qGw8tEuQ"
+
+[programs.testnet]
+atlas_farming = "3vn329CSYxQc4T1DNSk4Lw5Js3x83zwQTfv2qGw8tEuQ"
+
+[programs.mainnet]
+atlas_farming = "3vn329CSYxQc4T1DNSk4Lw5Js3x83zwQTfv2qGw8tEuQ"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "./keypair.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/atlas-farming-devnet.ts"
